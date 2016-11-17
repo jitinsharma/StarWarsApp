@@ -11,17 +11,25 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:parentActivityName=".SplashActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".SplashActivity">
+            android:parentActivityName=".activities.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestActivity"/>
+        <activity android:name=".TestActivity" />
+        <activity
+            android:name=".MoviesActivity"
+            android:label="@string/title_activity_movies"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.github.jitinsharma.starwarsapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

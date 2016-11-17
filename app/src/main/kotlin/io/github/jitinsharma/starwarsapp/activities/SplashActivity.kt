@@ -1,4 +1,4 @@
-package io.github.jitinsharma.starwarsapp
+package io.github.jitinsharma.starwarsapp.activities
 
 import android.app.ActivityOptions
 import android.content.Intent
@@ -6,6 +6,8 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
+import io.github.jitinsharma.starwarsapp.MainActivity
+import io.github.jitinsharma.starwarsapp.R
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {

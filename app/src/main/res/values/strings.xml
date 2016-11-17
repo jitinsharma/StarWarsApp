@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Star Wars App</string>
     <string name="action_settings">Settings</string>
+    <string name="movies">Movies</string>
+    <string name="jediText">Find Jedi</string>
+    <string name="title_activity_movies">MoviesActivity</string>
 </resources>
